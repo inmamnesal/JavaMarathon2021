@@ -9,8 +9,8 @@
         <module name="JavaMarathon2021" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaMarathon2021" target="1.11" />
+    <bytecodeTargetLevel target="11">
+      <module name="JavaMarathon2021" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
