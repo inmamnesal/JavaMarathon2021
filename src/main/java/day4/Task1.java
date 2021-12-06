@@ -1,6 +1,7 @@
 package day4;
 
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Task1 {
@@ -15,9 +16,12 @@ public class Task1 {
         int odd = 0;
         int sum = 0;
 
+        Random random = new Random();
+
         int[] mas = new int[size];
         for(int i = 0; i < size; i++){
-            mas[i] = (int)(Math.random()*10 + 1);
+            //mas[i] = (int)(Math.random()*10 + 1);
+            mas[i] = random.nextInt(10);
             if (mas[i] > 8) mor8++;
             if (mas[i] == 1) eq1++;
             if (mas[i] % 2 == 0) even++;

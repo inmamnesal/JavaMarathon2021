@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Task2 {
     public static void main(String[] args) {
         int[] mas = new int[100];
-        for (int i=0; i < 100; i++){
+        for (int i=0; i < 100; i++)
             mas[i] = (int)(Math.random()*10000 + 1);
-        }
+
 
         int min = 10000;
         int max = 0;
